@@ -12,6 +12,10 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
 
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
 </head>
 <body class="bg-slate-800">
    
@@ -29,13 +33,13 @@
             <label class="label">
               <span class="label-text">Account</span>
             </label>
-            <input type="number" placeholder="Enter Your Account" class="input input-bordered" required />
+            <input id="account-number" type="number" placeholder="Enter Your Account" class="input input-bordered" required />
           </div>
           <div class="form-control">
             <label class="label">
               <span class="label-text">Password</span>
             </label>
-            <input type="password" placeholder="password" class="input input-bordered" required />
+            <input id="password" type="password" placeholder="password" class="input input-bordered" required />
             <label class="label">
               <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
             </label>

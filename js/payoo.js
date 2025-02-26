@@ -10,7 +10,8 @@ document.getElementById('login-btn')
 
     if(accountNumber.length>=11){
         if(password==='1234'){
-            console.log('sob kicu thik ase');
+            // console.log('sob kicu thik ase');
+            window.location.href='./../home.html'
             Swal.fire({
                 title: "verification successfully!",
                 icon: "success",
